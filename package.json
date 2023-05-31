@@ -1,7 +1,13 @@
 {
-  "name": "portfolio--2",
+  "name": "portfolio-2",
   "version": "0.1.1",
   "private": true,
+  "description": "Portfolio Page",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/Pjatte1337/portfolio-2.git"
+  },
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
