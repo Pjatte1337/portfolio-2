@@ -1,0 +1,20 @@
+.btn {
+    background-color: #100c0d;
+    border: 2px solid #e3dcd2;
+    width: 70px;
+    margin: 5px;
+  }
+  
+  .btn a {
+    font-style: none;
+    text-decoration: none;
+    color: #e3dcd2;
+  }
+
+  .btn:hover {
+    border: 2px solid #cc8b65;
+  }
+  
+  .btn a:hover {
+    color: #cc8b65;
+  }
