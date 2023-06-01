@@ -27,7 +27,7 @@ function ProjectDisplay() {
         <p className="des">{project.tools}</p>
       </div>
       <div className="project-links">
-        <h2 className="head">Link for the project</h2>
+        <h2 className="head">Links for the project:</h2>
         <div className="links">
           <button className="btn-links" onClick={() => handleButtonClick(project.netlify)}>
             Netlify
