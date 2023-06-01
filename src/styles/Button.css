@@ -1,4 +1,5 @@
-.btn {
+.btn,
+.btn-links {
     background-color: #100c0d;
     border: 2px solid #e3dcd2;
     width: 70px;
@@ -11,10 +12,33 @@
     color: #e3dcd2;
   }
 
-  .btn:hover {
-    border: 2px solid #cc8b65;
+  .btn:hover,
+  .btn-links:hover  {
+    border: 3px solid #cc8b65;
   }
   
-  .btn a:hover {
+  .btn a:hover,
+  .btn-links:hover  {
     color: #cc8b65;
   }
+
+  .btn-links {
+    color:#e3dcd2;
+    width: 150px;
+    height: 35px;
+    margin: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+.readMoreButton {
+  color:#e3dcd2;
+  width: 150px;
+  height: 35px;
+  margin: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
