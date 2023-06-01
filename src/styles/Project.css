@@ -52,9 +52,52 @@
   background-size: cover;
 }
 
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .projectList .projectItem {
     height: 375px;
     width: 340px;
   }
+  .projectItem p {
+    font-size: 16px;
+  }
 }
+
+@media only screen and (max-width: 400px) {
+  .projectList .projectItem {
+    height: 350px;
+    width: 230px;
+  }
+  .projectItem p {
+    font-size: 13px;
+  }
+  .projectItem h1 {
+    font-size: 17px;
+  }
+}
+
