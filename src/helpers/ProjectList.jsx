@@ -12,7 +12,7 @@ export const ProjectList = [
       image: Img1,
       description: "This is my Project Exam 2 @ Noroff - School of technology and digital media. The website is an accommodation website using Noroff's live API. On the Holidaze website you can view, post and book venues for specific dates.",
       tools: "This project is designed with prototype in Figma. built with React (<16), BootStrap 5, StyledComponents and CSS modules.",
-      github:"/Pjatte1337/holidaze-exam-project",
+      github:"https://github.com/Pjatte1337/holidaze-exam-project",
     },
     {
       name: "StoreTown Ecommerce",
@@ -21,7 +21,7 @@ export const ProjectList = [
       image: Img2,
       description: "This is my JavaScript Framework Assignment @ Noroff - School of technology and digital media. The website is an eCom store using Noroff's live API. On the StoreTown eCom store you can buy product in different category.",
       tools: "This project is built with React(<6), Bootstrap 5, StyledComponent, Zustand, CSS Module And Noroff API",
-      github:"<a href='www.google.com'",
+      github:"https://github.com/Pjatte1337/js-framework-ca",
     },
     {
       name: "Social Media Platform",
