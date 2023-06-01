@@ -3,19 +3,22 @@
 - [![Netlify Status] 
 -  [Hosted application demo link]
 
-![image](https://github.com/Pjatte1337/portfolio-2/blob/development/src/assets/images/Protfolio-2.png)
+![image](https://github.com/Pjatte1337/portfolio-2/blob/development/src/assets/images/Protfolio-2.jpg)
 
-A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This is my personal portfolio webpage. On this webpage you can see what projects I have been doing the last year.
+On every project you can get info about the project and link to live demo page and alose the code on Github.
 
-You can add some bullet points if you'd like to:
 
-- List item 1
-- List item 2
-- List item 3
+The three project is:
+
+- Holidaze / Project Exam 2
+- StoreTown / JavaScript Framework
+- Social Media Platform / JavaScript 2
+
+( I have to use JavaScript 2 project since i didnt do the semester project 2 ) 
 
 ## Built With
 
