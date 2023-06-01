@@ -9,7 +9,7 @@
 ## Description
 
 This is my personal portfolio webpage. On this webpage you can see what projects I have been doing the last year.
-On every projecet you can get info about the project and link to live demo page and alose the code on Github.
+On every project you can get info about the project and link to live demo page and alose the code on Github.
 
 
 The three project is:
