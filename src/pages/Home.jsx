@@ -4,10 +4,14 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 import "../styles/Button.css";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div className="home">
+      <Helmet>
+        <meta name="description" content="This is my portfolio page with my projects from the last two years" />
+      </Helmet>
       <div className="about">
         <h2>Joakim Vanebo</h2>
         <div className="promt">
