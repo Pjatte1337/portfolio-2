@@ -1,11 +1,18 @@
-import './App.css';
+// import React components
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+// import styling for this page
+import './App.css';
+
+// import pages to route
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
+import ProjectDisplay from "./pages/ProjectDisplay";
+
+// import components
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
-import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
   return (

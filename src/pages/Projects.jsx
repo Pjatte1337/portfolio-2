@@ -1,8 +1,13 @@
+// Import react components
 import React from "react";
+import { Helmet } from "react-helmet";
+
+// Import styling for this page
+import "../styles/Project.css";
+
+//Getting value from ProjectList
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
-import "../styles/Project.css";
-import { Helmet } from "react-helmet";
 
 function Projects() {
   return (

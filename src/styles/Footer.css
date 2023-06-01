@@ -24,39 +24,9 @@
   color: #cc8b65;
 }
 
-
-
-
-
-@media only screen and (max-width: 1200px) {
-
-}
-
-
-
-
-@media only screen and (max-width: 992px) {
-  
-}
-
-
-
-
-@media only screen and (max-width: 768px) {
-  
-}
-
-
-
+/** Media query **/
 @media only screen and (max-width: 600px) {
   .socialMedia svg {
     font-size: 40px;
   }
-}
-
-
-
-
-@media only screen and (max-width: 600px)  {
-
 }

@@ -1,14 +1,17 @@
+// Import react components
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import "../styles/ProjectDisplay.css";
-import "../styles/Button.css";
 import { Helmet } from "react-helmet";
 
+// Import styling for this page
+import "../styles/ProjectDisplay.css";
+import "../styles/Button.css";
+
+//Getting value from ProjectList
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
-
   const handleButtonClick = (url) => {
     window.location.href = url;
   };
@@ -17,7 +20,10 @@ function ProjectDisplay() {
     <div className="project">
       <Helmet>
         <title>Joakim | {project.name}</title>
-        <meta name="description" content="specified information about the project" />
+        <meta
+          name="description"
+          content="specified information about the project"
+        />
       </Helmet>
       <div className="show">
         <h1>{project.name}</h1>

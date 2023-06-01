@@ -65,29 +65,19 @@
   width: 50%;
 }
 
-
+/** Media query **/
 @media only screen and (max-width: 1200px) {
   .me-skills .list {
     width: 85%;
   }
 }
 
-
-
-
-@media only screen and (max-width: 992px) {
-  
-}
-
-
-
-
 @media only screen and (max-width: 768px) {
-  .me-skills h1 { 
+  .me-skills h1 {
     font-size: 60px;
   }
 
-  .me-skills .item h2 { 
+  .me-skills .item h2 {
     font-size: 30px;
   }
 
@@ -96,39 +86,33 @@
   }
 }
 
-
-
 @media only screen and (max-width: 600px) {
-  .about, 
+  .about,
   .me-skills {
     height: 500px;
-  }
-
-  .me-skills h1 { 
-    font-size: 50px;
-  }
-
-  .me-skills .item h2 { 
-    font-size: 25px;
-  }
-  .list p {
-    font-size: 20px;
   }
 
   .home h2 {
     font-size: 40px;
   }
+
   .home p {
     font-size: 20px;
   }
+
+  .me-skills .item h2 {
+    font-size: 25px;
+  }
+
   .me-skills h1 {
     font-size: 40px;
   }
+
   .list h2 {
     font-size: 20px;
   }
+  
   .list p {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
-

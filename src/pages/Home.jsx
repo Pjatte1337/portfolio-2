@@ -1,10 +1,15 @@
+// Import react components
 import React from "react";
+import { Helmet } from "react-helmet";
+
+// Import Icon from Mui
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
+
+// Import styling for this page
 import "../styles/Home.css";
 import "../styles/Button.css";
-import { Helmet } from "react-helmet";
 
 function Home() {
   return (
