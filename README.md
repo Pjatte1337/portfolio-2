@@ -24,6 +24,7 @@ The three project is:
 
 - [React.js](https://reactjs.org/)
 - [Material Icons](https://mui.com/material-ui/material-icons/)
+- [React Helmet](https://www.freecodecamp.org/news/react-helmet-examples/)
 - [CSS Module](https://css-tricks.com/css-modules-part-1-need/)
 
 ## Getting Started
