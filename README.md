@@ -3,7 +3,7 @@
 - [![Netlify Status] 
 -  [Hosted application demo link]
 
-![image](https://github.com/Pjatte1337/portfolio-2/blob/development/src/assets/images/Protfolio-2.png)
+![image](https://github.com/Pjatte1337/portfolio-2/blob/development/src/assets/images/Protfolio-2.jpg)
 
 A simple overview of the use/purpose of the project.
 
