@@ -1,7 +1,7 @@
-import Img1 from "../assets/images/semester-project-2.png";
-import Img2 from "../assets/images/javascript-framework.png";
-import Img3 from "../assets/images/javascript-2-Noroff.png";
-import Img4 from "../assets/images/vaghaugen.png";
+import Img1 from "../assets/images/project-exam-2.jpg";
+import Img2 from "../assets/images/javascript-framework.jpg";
+import Img3 from "../assets/images/javascript-2-Noroff.jpg";
+import Img4 from "../assets/images/vaghaugen.jpg";
 
 export const ProjectList = [
     {
