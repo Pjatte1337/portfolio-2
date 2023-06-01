@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
+import "../styles/Button.css";
+
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -25,9 +27,12 @@ function ProjectDisplay() {
         <h2 className="head">Tools used:</h2>
         <p className="des">{project.tools}</p>
       </div>
-      <div className="project-github">
-        <button onClick={handleButtonClick}>GitHub</button>
-        <button onClick={handleButtonClick}>GitHub</button>
+      <div className="project-links">
+        <h2 className="head">Link for the project</h2>
+        <div className="links">
+          <button className="btn-links" onClick={handleButtonClick}>Netlify</button>
+          <button className="btn-links"onClick={handleButtonClick}>Github</button>
+        </div>
       </div>
     </div>
   );
