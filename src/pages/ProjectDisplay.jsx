@@ -4,13 +4,12 @@ import { ProjectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
 import "../styles/Button.css";
 
-
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
 
-  const handleButtonClick = () => {
-    window.location.href = project.github;
+  const handleButtonClick = (url) => {
+    window.location.href = url;
   };
 
   return (
@@ -30,8 +29,12 @@ function ProjectDisplay() {
       <div className="project-links">
         <h2 className="head">Link for the project</h2>
         <div className="links">
-          <button className="btn-links" onClick={handleButtonClick}>Netlify</button>
-          <button className="btn-links"onClick={handleButtonClick}>Github</button>
+          <button className="btn-links" onClick={() => handleButtonClick(project.netlify)}>
+            Netlify
+          </button>
+          <button className="btn-links" onClick={() => handleButtonClick(project.github)}>
+            Github
+          </button>
         </div>
       </div>
     </div>

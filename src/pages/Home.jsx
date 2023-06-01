@@ -33,13 +33,13 @@ function Home() {
         <h1>About</h1>
         <ol className="list">
           <li className="item">
-            <h2> My name is Joakim </h2>
+            <h2>My name is Joakim</h2>
             <p>
               Frontend Developer student @ Noroff School Of Technology And
               Digital Media.
             </p>
-            <p> Living in Trondheim, Norway.</p>
-            <p>This is my portofolio page with my projects</p>
+            <p>Living in Trondheim, Norway.</p>
+            <p>This is my portfolio page with my projects</p>
           </li>
         </ol>
       </div>
@@ -47,15 +47,15 @@ function Home() {
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2>Front-End </h2>
-            <p>HTML, CSS, JavaScript, React, SASS, BootStrap, TailwindCSS</p>
+            <h2>Front-End</h2>
+            <p>HTML, CSS, JavaScript, React, SASS, Bootstrap, Tailwind CSS</p>
           </li>
           <li className="item">
-            <h2> Back-End </h2>
-            <p>JavaScript, PHP, Nodejs, C#, .NET, SQL </p>
+            <h2>Back-End</h2>
+            <p>JavaScript, PHP, Node.js, C#, .NET, SQL</p>
           </li>
           <li className="item">
-            <h2> Tools </h2>
+            <h2>Tools</h2>
             <p>Git, GitHub, Wordpress, Visual Studio Code, Adobe XD, Adobe Photoshop, Figma</p>
           </li>
         </ol>
