@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
 import "../styles/Button.css";
+import { Helmet } from "react-helmet";
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -14,6 +15,10 @@ function ProjectDisplay() {
 
   return (
     <div className="project">
+      <Helmet>
+        <title>Joakim | {project.name}</title>
+        <meta name="description" content="specified information about the project" />
+      </Helmet>
       <div className="show">
         <h1>{project.name}</h1>
         <img src={project.image} alt="description" />
@@ -29,10 +34,16 @@ function ProjectDisplay() {
       <div className="project-links">
         <h2 className="head">Links for the project:</h2>
         <div className="links">
-          <button className="btn-links" onClick={() => handleButtonClick(project.netlify)}>
+          <button
+            className="btn-links"
+            onClick={() => handleButtonClick(project.netlify)}
+          >
             Netlify
           </button>
-          <button className="btn-links" onClick={() => handleButtonClick(project.github)}>
+          <button
+            className="btn-links"
+            onClick={() => handleButtonClick(project.github)}
+          >
             Github
           </button>
         </div>

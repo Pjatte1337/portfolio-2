@@ -10,7 +10,8 @@ function Home() {
   return (
     <div className="home">
       <Helmet>
-        <meta name="description" content="This is my portfolio page with my projects from the last two years" />
+        <title>Joakim | Portfoilio</title>
+        <meta name="description" content="Personal portfolio for Joakim" />
       </Helmet>
       <div className="about">
         <h2>Joakim Vanebo</h2>
@@ -39,15 +40,17 @@ function Home() {
           <li className="item">
             <h2>My name is Joakim</h2>
             <p>
-              Just finished Front-End Developer at Noroff School Of Technology And
-              Digital Media.
+              Just finished Front-End Developer at Noroff School Of Technology
+              And Digital Media.
             </p>
             <p>
-              Soon to start Back-End Developer at Noroff School Of Technology And
-              Digital Media.
+              Soon to start Back-End Developer at Noroff School Of Technology
+              And Digital Media.
             </p>
             <p>Living in Trondheim, Norway.</p>
-            <p>This is my portfolio page with my projects from the two last years</p>
+            <p>
+              This is my portfolio page with my projects from the two last years
+            </p>
           </li>
         </ol>
       </div>
@@ -64,7 +67,10 @@ function Home() {
           </li>
           <li className="item">
             <h2>Tools</h2>
-            <p>Git, GitHub, Wordpress, Visual Studio Code, Adobe XD, Adobe Photoshop, Figma</p>
+            <p>
+              Git, GitHub, Wordpress, Visual Studio Code, Adobe XD, Adobe
+              Photoshop, Figma
+            </p>
           </li>
         </ol>
       </div>

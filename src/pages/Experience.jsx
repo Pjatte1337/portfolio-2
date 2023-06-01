@@ -7,10 +7,15 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import "../styles/Experience.css";
+import { Helmet } from "react-helmet";
 
 function Experience() {
   return (
     <div className="experience">
+      <Helmet>
+        <title>Joakim | Experience</title>
+        <meta name="description" content="Overview of my experience" />
+      </Helmet>
       <VerticalTimeline lineColor="#cc8b65">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

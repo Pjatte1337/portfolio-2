@@ -2,10 +2,15 @@ import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
 import "../styles/Project.css";
+import { Helmet } from "react-helmet";
 
 function Projects() {
   return (
     <div className="projects">
+      <Helmet>
+        <title>Joakim | Projects</title>
+        <meta name="description" content="List of my project" />
+      </Helmet>
       <div className="projectList">
         {ProjectList.map((project, idx) => (
           <ProjectItem
