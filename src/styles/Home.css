@@ -62,32 +62,14 @@
 }
 
 .me-skills .list {
-  width: 85%;
+  width: 50%;
 }
-
-@media only screen and (max-width: 600px) {
-  .home h2 {
-    font-size: 40px;
-  }
-  .home p {
-    font-size: 20px;
-  }
-  .me-skills h1 {
-    font-size: 40px;
-  }
-  .list h2 {
-    font-size: 20px;
-  }
-  .list p {
-    font-size: 17px;
-  }
-}
-
-
 
 
 @media only screen and (max-width: 1200px) {
-
+  .me-skills .list {
+    width: 85%;
+  }
 }
 
 
@@ -117,6 +99,11 @@
 
 
 @media only screen and (max-width: 600px) {
+  .about, 
+  .me-skills {
+    height: 500px;
+  }
+
   .me-skills h1 { 
     font-size: 50px;
   }
@@ -126,6 +113,22 @@
   }
   .list p {
     font-size: 20px;
+  }
+
+  .home h2 {
+    font-size: 40px;
+  }
+  .home p {
+    font-size: 20px;
+  }
+  .me-skills h1 {
+    font-size: 40px;
+  }
+  .list h2 {
+    font-size: 20px;
+  }
+  .list p {
+    font-size: 17px;
   }
 }
 

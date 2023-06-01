@@ -35,11 +35,15 @@ function Home() {
           <li className="item">
             <h2>My name is Joakim</h2>
             <p>
-              Frontend Developer student @ Noroff School Of Technology And
+              Just finished Front-End Developer at Noroff School Of Technology And
+              Digital Media.
+            </p>
+            <p>
+              Soon to start Back-End Developer at Noroff School Of Technology And
               Digital Media.
             </p>
             <p>Living in Trondheim, Norway.</p>
-            <p>This is my portfolio page with my projects</p>
+            <p>This is my portfolio page with my projects from the two last years</p>
           </li>
         </ol>
       </div>
