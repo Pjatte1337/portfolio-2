@@ -1,0 +1,118 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.about {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #cc8b65;
+  border-bottom: 1px solid #cc8b65;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  height: 50px;
+}
+
+.about p {
+  font-size: 27px;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+.me-skills {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #cc8b65;
+}
+
+.me-skills h1 {
+  font-size: 60px;
+  color: #cc8b65;
+}
+
+.me-skills h2 {
+  font-size: 35px;
+  color: #cc8b65;
+}
+
+.me-skills p {
+  font-size: 27px;
+  color: #e3dcd2;
+}
+
+.me-skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.me-skills .list {
+  width: 50%;
+}
+
+/** Media query **/
+@media only screen and (max-width: 1200px) {
+  .me-skills .list {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .me-skills h1 {
+    font-size: 60px;
+  }
+
+  .me-skills .item h2 {
+    font-size: 30px;
+  }
+
+  .list p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about,
+  .me-skills {
+    height: 500px;
+  }
+
+  .home h2 {
+    font-size: 40px;
+  }
+
+  .home p {
+    font-size: 20px;
+  }
+
+  .me-skills .item h2 {
+    font-size: 25px;
+  }
+
+  .me-skills h1 {
+    font-size: 40px;
+  }
+
+  .list h2 {
+    font-size: 20px;
+  }
+  
+  .list p {
+    font-size: 20px;
+  }
+}
