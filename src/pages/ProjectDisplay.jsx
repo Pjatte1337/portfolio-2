@@ -50,7 +50,7 @@ function ProjectDisplay() {
             className="btn-links"
             onClick={() => handleButtonClick(project.github)}
           >
-            Github
+            ssss
           </button>
         </div>
       </div>
