@@ -35,6 +35,12 @@
   font-size: 19px;
 }
 
+.projectItem:hover .more {
+  color: #100c0d;
+  font-weight: bold;
+
+}
+
 .projectItem:hover {
   box-shadow: 0px 3px 15px #e3dcd2;
   transition: 0.3s ease-in;
