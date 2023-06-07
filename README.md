@@ -3,7 +3,7 @@
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/2f489a98-5dec-4f7f-8d24-0280204dcbee/deploy-status)](https://app.netlify.com/sites/joakim-portfolio-2/deploys)
 - [Hosted application demo link](https://joakim-portfolio-2.netlify.app/)
 
-![image](https://github.com/Pjatte1337/portfolio-2/blob/development/src/assets/images/Protfolio-2.jpg)
+![image](https://github.com/Pjatte1337/portfolio-2/blob/master/src/assets/images/Protfolio-2.jpg)
 
 
 ## Description
