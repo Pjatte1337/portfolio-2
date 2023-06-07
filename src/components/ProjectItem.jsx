@@ -14,6 +14,7 @@ function ProjectItem( { image, name, id, title,info }) {
             <h1> {name} </h1>
             <p> {title} </p>
             <p> {info} </p>
+            <p className="more"> Click for more </p>
         </div>
     );
 }

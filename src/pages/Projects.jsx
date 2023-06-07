@@ -25,6 +25,7 @@ function Projects() {
             image={project.image}
             title={project.title}
             info={project.info}
+            click={project.more}
           />
         ))}
       </div>
